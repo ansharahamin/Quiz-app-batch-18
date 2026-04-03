@@ -29,7 +29,7 @@ index = 0
 function renderQuiz() {
     var quizContainer = document.getElementById("cont")
     console.log(quizContainer);
-    quizContainer.innerHTML = `<div class="card m-5">
+    quizContainer.innerHTML = `<div class="card m-5 w-50 mx-auto violet">
     <h5 class="card-header">${quiz[index].question}</h5>
     <div class="card-body">
      
@@ -43,10 +43,10 @@ function renderQuiz() {
     </ul>
     </div>
   </div>`
-  index++
+    index++
 }
 renderQuiz()
 
 function next() {
-   
+
 }

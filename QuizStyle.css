@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://img.freepik.com/premium-psd/3d-faq-speech-bubble-icons-render-purple-background-question-answer-communication-social-dialogue-banner-with-color-rectangular-chat-message-boxes-ask-doubt-signs-empty-space_645257-2577.jpg?semt=ais_incoming&w=740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.quizNavbar{
+    background-color: #FDD4F6;
+    color: #EB60FF;
+    font-weight: bold;
+  
+}
+.quizNavbar h1{
+    color: #EB60FF;
+    font-weight: bold;
+}
+.quizNavbar button{
+    background-color: #b82a4e6b;
+    color: #fff;
+    font-weight: bold;
+}
+.quizNavbar button:hover{
+    background-color: #5c1f3857;
+    color: #fff;
+    font-weight: bold;
+}
+.card{
+    background-color: #FFEFFB;
+    color: #ff60d7;
+    font-weight: 600;
+}
+.card li{
+    background-color: #ffd6e65e;
+    color: #ff60d7;
+    font-weight: 600;
+    transition: 1s ease-in-out;
+}
+.card button{
+    background-color: #E549FF;
+    color: #f5f5f5;
+    font-weight: 600;
+    transition: 1s ease-in-out;
+}
+.card li:hover{
+    background-color: #a7a6a659;
+    color: #ff60d7;
+    font-weight: 600;
+    transform: scale(1.12);
+}
+.card button:hover{
+    background-color: #f87eeebb;
+    color: #ff7fdf;
+    font-weight: 600;
+    transform: scale(1.12);
+}
