@@ -11,6 +11,7 @@ body{
     background-position: center;
    
 }
+
 .quizNavbar{
     background-color: #FDD4F6;
     color: #EB60FF;
@@ -37,7 +38,7 @@ body{
     font-weight: 600;
 }
 .card li{
-    background-color: #ffd6e65e;
+    background-color: #f3bad033;
     color: #ff60d7;
     font-weight: 600;
     transition: 1s ease-in-out;
@@ -55,8 +56,20 @@ body{
     transform: scale(1.12);
 }
 .card button:hover{
-    background-color: #f87eeebb;
-    color: #ff7fdf;
+    background-color: #f87eee93;
+    color: #ff00bf;
     font-weight: 600;
     transform: scale(1.12);
 }
+input[type="radio"] {
+  accent-color: #AB80E4; /* Replace with your desired color */
+    width: 15px;
+  height: 15px;
+  border: 2px groove #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type="radio"]:checked {
+  background-color: #8e21f3; /* Filled color when checked */
+    border-color: #ec85e4;
+    }
