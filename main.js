@@ -26,6 +26,11 @@ var S_password = document.getElementById("S_password");
     }
    var getData = JSON.parse(localStorage.getItem("user"));
 var storage = []
+    let userExists = users.find(user => user.email === S_email.value);
+    if (userExists) {
+        alert("User already exists!");
+        return;
+    }
 var user = {
     username: S_username.value,
     email: S_email.value,
@@ -33,7 +38,8 @@ var user = {
 }
 localStorage.setItem("user", JSON.stringify(user));
 storage.push(user);
-window.location.href = "./dashboard.html";
+ var newWindow = window.open("dashboard.html","_blank")
+       window.open("", "dashboard.html;", "width=420,height=380,left=200,top=100")
 }
 function login() {
     var getData = JSON.parse(localStorage.getItem("user"));
@@ -43,7 +49,8 @@ function login() {
     }
     if (L_email.value === getData.email && L_password.value === getData.password) {
         alert("Login successful!");
-        window.location.href = "./dashboard.html";
+       var newWindow = window.open("dashboard.html","_blank")
+       window.open("", "win1", "width=420,height=380,left=200,top=100")
     } else {
         alert("Invalid email or password.");
     }

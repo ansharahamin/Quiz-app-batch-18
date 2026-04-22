@@ -145,4 +145,3 @@ function renderQuiz() {
     index++
 }
 renderQuiz()
-
